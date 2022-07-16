@@ -1,0 +1,97 @@
+h3{
+    margin-top: 80px;
+}
+
+.contact-container{
+    background: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.create-icon{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.contact-names{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.person-info{
+    position: relative;
+    width: 100%;
+    background: #c5f3e2;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.toggle-icon{
+    position: absolute;
+    right: 10px;
+}
+
+.contact-details{
+    margin-top: 10px;
+    display: none;
+}
+
+.edit-container{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.edit-container>.buttons-holder{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.buttons-holder>button{
+    margin-right: 10px;
+}
+
+.personal-details{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    background: #d5e6e1;
+}
+
+.personal-details>div{
+    margin-right: 20px;
+}
+
+@media (max-width: 538px){
+    .contact-container{
+        width: 350px;
+    }
+    .personal-details{
+        padding: 3px;
+        font-size: 13px;
+    }
+
+    .contact-container{
+        padding: 20px;
+    }
+}
+
