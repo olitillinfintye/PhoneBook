@@ -3,8 +3,7 @@
   PhoneBook
 </h3>
 
-* Deployed on Heroku. 
-* **Website Link:** https://phone-book980-yv.herokuapp.com/
+
 
 ![PhoneBook](https://yatharth1706.github.io/assets/ContactsPage.png)
 
@@ -22,10 +21,10 @@
 
 ```json
   {
-    "name" : "yash",
-    "dob" : "1/2/1999",
-    "phoneNumbers" : ["9283898999"],
-    "emails" : ["yash1234@gmail.com"]
+    "name" : "olly",
+    "dob" : "3/14/2002",
+    "phoneNumbers" : ["925436787"],
+    "emails" : ["oliyadtesfaye2020@gmail.com"]
    }
 ```
 
@@ -37,10 +36,10 @@
 
 ```json
     {
-      "name" : "yash",
-      "dob" : "1/2/1999",
-      "phoneNumbers" : ["9283898999"],
-      "emails" : ["yash1234@gmail.com"]
+       "name" : "olly",
+       "dob" : "3/14/2002",
+       "phoneNumbers" : ["925436787"],
+       "emails" : ["oliyadtesfaye2020@gmail.com"]
    }
 ```
 
